@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 85%);
+}
+
+h1{
+    color: hsl(160, 78%, 25%);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+    margin-left: 40%;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+
+#input{
+    text-align: end;
+    padding-right: 150px;
+    font-size: 1.5em;
+    width: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+
+button{
+    background-color: hsl(0, 100%, 33%);
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 100%, 25%);
+    transition: all 0.5s ease-in-out;
+}
+
+#result{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
